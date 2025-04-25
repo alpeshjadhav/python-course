@@ -64,29 +64,40 @@ Operator | Meaning          | Example
 
 2. Comparison (Relational) Operators
 Used to compare values; returns True or False.
-Operator | Meaning | Example
-== | Equal to | a == b
-!= | Not equal to | a != b
-> | Greater than | a > b
-< | Less than | a < b
->= | Greater or equal | a >= b
-<= | Less or equal | a <= b
+Operator | Meaning          | Example
+==       | Equal to         | a == b
+!=       | Not equal to     | a != b
+>        | Greater than     | a > b
+<        | Less than        | a < b
+>=       | Greater or equal | a >= b
+<=       | Less or equal    | a <= b
 
 3. Assignment Operators
 Used to assign values to variables.
 Operator | Example | Equivalent To
-=  | x = 5 | x = 5
-+= | x += 3 | x = x + 3
--= | x -= 2 | x = x - 2
-*= | x *= 4 | x = x * 4
-/= | x /= 3 | x = x / 3
-//= | x //= 2 | x = x // 2
-%= | x %= 2 | x = x % 2
-**= | x **= 2 | x = x ** 2
+=        | x = 5   | x = 5
++=       | x += 3  | x = x + 3
+-=       | x -= 2  | x = x - 2
+*=       | x *= 4  | x = x * 4
+/=       | x /= 3  | x = x / 3
+//=      | x //= 2 | x = x // 2
+%=       | x %= 2  | x = x % 2
+**=      | x **= 2 | x = x ** 2
 
 4. Logical Operators
 Used to combine conditional statements.
-Operator | Description | Example
-and | True if both are True | x > 2 and y < 10
-or | True if at least one is True | x > 2 or y < 10
-not | Reverses result | not(x > 2)
+Operator | Description                  | Example
+and      | True if both are True        | x > 2 and y < 10
+or       | True if at least one is True | x > 2 or y < 10
+not      | Reverses result              | not(x > 2)
+
+Implicit Type Conversion (Automatic):
+Python automatically converts data types where needed.
+
+Explicit Type Conversion (Manual / Type Casting):
+You manually convert one type to another using functions like:
+int() – converts to integer
+float() – converts to float
+str() – converts to string
+bool() – converts to boolean
+list(), tuple(), set() – for collections
