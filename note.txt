@@ -1,0 +1,92 @@
+Character Sets:
+Letters: A-Z, a-z
+Digits: 0-9
+Spetial Symols: !@#$%^&*()_+><
+White Spaces: Blank space, tabs, enter, newline, formfeed
+Other Characters: ASCII and UNICODE
+
+
+A variable is like a container for storing data, such as numbers, text, or more complex data types.
+
+Rules for Naming Variables:
+Must start with a letter or underscore (_)
+Cannot start with a number
+Can contain letters, numbers, and underscores
+Are case-sensitive (age and Age are different)
+
+Primary Data Type:
+Integer, Floating, String, Boolean, None
+
+Data Type | Example
+int       | x = 5
+float     | price = 19.99
+str       | name = "Bob"
+bool      | is_happy = True
+list      | nums = [1, 2, 3]
+dict      | user = {"name": "Alice", "age": 25}
+
+
+In Python, keywords are reserved words that have special meaning. You can't use them as variable names, function names, or identifiers.
+
+Kyewords:
+False      await      else       import     pass
+None       break      except     in         raise
+True       class      finally    is         return
+and        continue   for        lambda     try
+as         def        from       nonlocal   while
+assert     del        global     not        with
+async      elif       if         or         yield
+
+Keyword                     | Purpose Example
+if, else, elif              | Control flow (conditions)
+for, while, break, continue | Loops
+def, return, lambda         | Functions
+class, pass                 | Classes and OOP
+try, except, finally, raise | Error handling
+import, from, as            | Module handling
+True, False, None           | Constants
+and, or, not, is, in        | Operators
+global, nonlocal            | Variable scope
+
+
+In Python, operators are special symbols or keywords that perform operations on variables and values. Let's break them down into the main types:
+
+1. Arithmetic Operators
+Used for basic math.
+Operator | Meaning          | Example
++        | Addition         | a + b
+-        | Subtraction      | a - b
+*        | Multiplication   | a * b
+/        | Division         | a / b
+%        | Modulus          | a % b
+**       | Exponentiation   | a ** b
+//       | Floor Division   | a // b
+
+2. Comparison (Relational) Operators
+Used to compare values; returns True or False.
+Operator | Meaning | Example
+== | Equal to | a == b
+!= | Not equal to | a != b
+> | Greater than | a > b
+< | Less than | a < b
+>= | Greater or equal | a >= b
+<= | Less or equal | a <= b
+
+3. Assignment Operators
+Used to assign values to variables.
+Operator | Example | Equivalent To
+=  | x = 5 | x = 5
++= | x += 3 | x = x + 3
+-= | x -= 2 | x = x - 2
+*= | x *= 4 | x = x * 4
+/= | x /= 3 | x = x / 3
+//= | x //= 2 | x = x // 2
+%= | x %= 2 | x = x % 2
+**= | x **= 2 | x = x ** 2
+
+4. Logical Operators
+Used to combine conditional statements.
+Operator | Description | Example
+and | True if both are True | x > 2 and y < 10
+or | True if at least one is True | x > 2 or y < 10
+not | Reverses result | not(x > 2)
