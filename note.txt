@@ -101,3 +101,22 @@ float() – converts to float
 str() – converts to string
 bool() – converts to boolean
 list(), tuple(), set() – for collections
+
+
+In Python, a string is a sequence of characters enclosed in either single quotes ('...') or double quotes ("..."). Strings are one of the most commonly used data types in Python.
+
+Indexing in Python strings means accessing individual characters by their position.
+Basic Indexing:
+Python uses zero-based indexing, so the first character has index 0, the second has 1, and so on.
+You can also use negative indexing to count from the end of the string.
+
+Slicing lets you extract a portion of a string using a special syntax:
+
+Syntax: string[start:stop:step]
+
+start: index to begin slicing (inclusive)
+stop: index to end slicing (exclusive)
+step: how many characters to skip (optional)
+
+string function:
+Python provides many built-in string functions (methods) that help with manipulating and analyzing strings.
