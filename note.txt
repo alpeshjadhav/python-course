@@ -120,3 +120,7 @@ step: how many characters to skip (optional)
 
 string function:
 Python provides many built-in string functions (methods) that help with manipulating and analyzing strings.
+
+In Python, a list is a built-in data structure that allows you to store an ordered collection of items, which can be of any type (integers, strings, other lists, etc.). Lists are mutable, meaning you can change their content after creation.
+
+In Python, a tuple is a collection data type similar to a list, but immutable, meaning its elements cannot be changed after creation.
