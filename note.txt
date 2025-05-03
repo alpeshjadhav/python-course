@@ -1,130 +1,134 @@
-Character Sets:
-Letters: A-Z, a-z
-Digits: 0-9
-Spetial Symols: !@#$%^&*()_+><
-White Spaces: Blank space, tabs, enter, newline, formfeed
-Other Characters: ASCII and UNICODE
+---
 
+Character Sets
+- Letters: A-Z, a-z
+- Digits: 0-9
+- Special Symbols: !@#$%^&*()_+><
+- White Spaces: Blank space, tabs, enter, newline, formfeed
+- Other Characters: ASCII and UNICODE
 
-A variable is like a container for storing data, such as numbers, text, or more complex data types.
+---
+
+Variables
+- A variable is like a container for storing data, such as numbers, text, or more complex data types.
 
 Rules for Naming Variables:
-Must start with a letter or underscore (_)
-Cannot start with a number
-Can contain letters, numbers, and underscores
-Are case-sensitive (age and Age are different)
+- Must start with a letter or underscore (_)
+- Cannot start with a number
+- Can contain letters, numbers, and underscores
+- Are case-sensitive (e.g., age and Age are different)
 
-Primary Data Type:
-Integer, Floating, String, Boolean, None
+---
 
-Data Type | Example
-int       | x = 5
-float     | price = 19.99
-str       | name = "Bob"
-bool      | is_happy = True
-list      | nums = [1, 2, 3]
-dict      | user = {"name": "Alice", "age": 25}
+Primary Data Types
+| Data Type | Example                |
+|-----------|------------------------|
+| int       | x = 5                  |
+| float     | price = 19.99          |
+| str       | name = "Bob"           |
+| bool      | is_happy = True        |
+| list      | nums = [1, 2, 3]       |
+| dict      | user = {"name": "Alice", "age": 25} |
 
+---
 
-In Python, keywords are reserved words that have special meaning. You can't use them as variable names, function names, or identifiers.
+Keywords
+- Keywords are reserved words that have special meaning in Python. They cannot be used as variable names, function names, or identifiers.
 
-Kyewords:
-False      await      else       import     pass
-None       break      except     in         raise
-True       class      finally    is         return
-and        continue   for        lambda     try
-as         def        from       nonlocal   while
-assert     del        global     not        with
-async      elif       if         or         yield
+List of Keywords:
+- False, await, else, import, pass
+- None, break, except, in, raise
+- True, class, finally, is, return
+- and, continue, for, lambda, try
+- as, def, from, nonlocal, while
+- assert, del, global, not, with
+- async, elif, if, or, yield
 
-Keyword                     | Purpose Example
-if, else, elif              | Control flow (conditions)
-for, while, break, continue | Loops
-def, return, lambda         | Functions
-class, pass                 | Classes and OOP
-try, except, finally, raise | Error handling
-import, from, as            | Module handling
-True, False, None           | Constants
-and, or, not, is, in        | Operators
-global, nonlocal            | Variable scope
+Keyword Purposes:
+| Keyword                     | Purpose Example                     |
+|-----------------------------|-------------------------------------|
+| if, else, elif              | Control flow (conditions)           |
+| for, while, break, continue | Loops                               |
+| def, return, lambda         | Functions                           |
+| class, pass                 | Classes and OOP                     |
+| try, except, finally, raise | Error handling                      |
+| import, from, as            | Module handling                     |
+| True, False, None           | Constants                           |
+| and, or, not, is, in        | Operators                           |
+| global, nonlocal            | Variable scope                      |
 
+---
 
-In Python, operators are special symbols or keywords that perform operations on variables and values. Let's break them down into the main types:
+Operators
+Operators are special symbols or keywords that perform operations on variables and values.
 
 1. Arithmetic Operators
-Used for basic math.
-Operator | Meaning          | Example
-+        | Addition         | a + b
--        | Subtraction      | a - b
-*        | Multiplication   | a * b
-/        | Division         | a / b
-%        | Modulus          | a % b
-**       | Exponentiation   | a ** b
-//       | Floor Division   | a // b
+| Operator | Meaning          | Example   |
+|----------|------------------|-----------|
+| +        | Addition         | a + b     |
+| -        | Subtraction      | a - b     |
+| *        | Multiplication   | a * b     |
+| /        | Division         | a / b     |
+| %        | Modulus          | a % b     |
+| **       | Exponentiation   | a ** b    |
+| //       | Floor Division    | a // b    |
 
 2. Comparison (Relational) Operators
-Used to compare values; returns True or False.
-Operator | Meaning          | Example
-==       | Equal to         | a == b
-!=       | Not equal to     | a != b
->        | Greater than     | a > b
-<        | Less than        | a < b
->=       | Greater or equal | a >= b
-<=       | Less or equal    | a <= b
+| Operator | Meaning          | Example   |
+|----------|------------------|-----------|
+| ==       | Equal to         | a == b    |
+| !=       | Not equal to     | a != b    |
+| >        | Greater than     | a > b     |
+| <        | Less than        | a < b     |
+| >=       | Greater or equal | a >= b    |
+| <=       | Less or equal    | a <= b    |
 
 3. Assignment Operators
-Used to assign values to variables.
-Operator | Example | Equivalent To
-=        | x = 5   | x = 5
-+=       | x += 3  | x = x + 3
--=       | x -= 2  | x = x - 2
-*=       | x *= 4  | x = x * 4
-/=       | x /= 3  | x = x / 3
-//=      | x //= 2 | x = x // 2
-%=       | x %= 2  | x = x % 2
-**=      | x **= 2 | x = x ** 2
+| Operator | Example   | Equivalent To     |
+|----------|-----------|-------------------|
+| =        | x = 5     | x = 5             |
+| +=       | x += 3    | x = x + 3         |
+| -=       | x -= 2    | x = x - 2         |
+| *=       | x *= 4    | x = x * 4         |
+| /=       | x /= 3    | x = x / 3         |
+| //=      | x //= 2   | x = x // 2        |
+| %=       | x %= 2    | x = x % 2         |
+| **=      | x **= 2   | x = x ** 2        |
 
 4. Logical Operators
-Used to combine conditional statements.
-Operator | Description                  | Example
-and      | True if both are True        | x > 2 and y < 10
-or       | True if at least one is True | x > 2 or y < 10
-not      | Reverses result              | not(x > 2)
+| Operator | Description                  | Example               |
+|----------|------------------------------|-----------------------|
+| and      | True if both are True        | x > 2 and y < 10      |
+| or       | True if at least one is True | x > 2 or y < 10       |
+| not      | Reverses result              | not(x > 2)            |
 
-Implicit Type Conversion (Automatic):
-Python automatically converts data types where needed.
+---
 
-Explicit Type Conversion (Manual / Type Casting):
-You manually convert one type to another using functions like:
-int() – converts to integer
-float() – converts to float
-str() – converts to string
-bool() – converts to boolean
-list(), tuple(), set() – for collections
+Type Conversion
+- Implicit Type Conversion (Automatic): Python automatically converts data types where needed.
+- Explicit Type Conversion (Manual / Type Casting): You manually convert one type to another using functions like:
+  - int() – converts to integer
+  - float() – converts to float
+  - str() – converts to string
+  - bool() – converts to boolean
+  - list(), tuple(), set() – for collections
 
+---
 
-In Python, a string is a sequence of characters enclosed in either single quotes ('...') or double quotes ("..."). Strings are one of the most commonly used data types in Python.
+Strings
+- A string is a sequence of characters enclosed in either single quotes ('...') or double quotes ("...").
+- Indexing: Access individual characters by their position (zero-based indexing).
+- Slicing Syntax: string[start:stop:step]
+  - start: index to begin slicing (inclusive)
+  - stop: index to end slicing (exclusive)
+  - step: how many characters to skip (optional)
 
-Indexing in Python strings means accessing individual characters by their position.
-Basic Indexing:
-Python uses zero-based indexing, so the first character has index 0, the second has 1, and so on.
-You can also use negative indexing to count from the end of the string.
+---
 
-Slicing lets you extract a portion of a string using a special syntax:
+Data Structures
+- List: An ordered collection of items, mutable (e.g., nums = [1, 2, 3]).
+- Tuple: Similar to a list but immutable (e.g., my_tuple = (1, 2, 3)).
+- Dictionary: An unordered, mutable collection of key-value pairs (e.g., user = {"name": "Alice", "age": 25}).
+- Set: An unordered collection of unique elements, mutable (e.g., my_set = {1, 2, 3}).
 
-Syntax: string[start:stop:step]
-
-start: index to begin slicing (inclusive)
-stop: index to end slicing (exclusive)
-step: how many characters to skip (optional)
-
-string function:
-Python provides many built-in string functions (methods) that help with manipulating and analyzing strings.
-
-In Python, a list is a built-in data structure that allows you to store an ordered collection of items, which can be of any type (integers, strings, other lists, etc.). Lists are mutable, meaning you can change their content after creation.
-
-In Python, a tuple is a collection data type similar to a list, but immutable, meaning its elements cannot be changed after creation.
-
-A dictionary in Python is an unordered, mutable, and indexed collection of key-value pairs. It’s one of Python’s most powerful and commonly used data structures.
-
-A set in Python is an unordered, mutable collection of unique elements. Sets are useful when you want to store items without duplicates and perform operations like unions and intersections.
+---
