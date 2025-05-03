@@ -124,3 +124,7 @@ Python provides many built-in string functions (methods) that help with manipula
 In Python, a list is a built-in data structure that allows you to store an ordered collection of items, which can be of any type (integers, strings, other lists, etc.). Lists are mutable, meaning you can change their content after creation.
 
 In Python, a tuple is a collection data type similar to a list, but immutable, meaning its elements cannot be changed after creation.
+
+A dictionary in Python is an unordered, mutable, and indexed collection of key-value pairs. It’s one of Python’s most powerful and commonly used data structures.
+
+A set in Python is an unordered, mutable collection of unique elements. Sets are useful when you want to store items without duplicates and perform operations like unions and intersections.
