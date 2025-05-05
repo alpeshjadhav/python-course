@@ -1,3 +1,4 @@
+# Functions
 def greetings():
     print("Hello..")
 
@@ -26,7 +27,7 @@ def calc_avg(a, b, c):
 
 calc_avg(3, 6, 9)
 
-# calculate prod of number using default value
+# calculate prod of number
 
 
 def calc_prod(a, b=5):
