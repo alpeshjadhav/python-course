@@ -132,3 +132,28 @@ Data Structures
 - Set: An unordered collection of unique elements, mutable (e.g., my_set = {1, 2, 3}).
 
 ---
+
+File I/O
+File I/O (Input/Output) in Python allows you to read from and write to files.
+
+Types of Files:
+- Text Files:
+Store human-readable characters.
+Usually have extensions like .txt, .csv, .json, .xml, .html.
+
+Examples:
+.txt – Plain text
+.csv – Comma-separated values
+.json – JavaScript Object Notation
+.xml – eXtensible Markup Language
+
+- Binary Files:
+Store data in binary (0s and 1s).
+Not human-readable directly.
+Used for images, videos, executables, etc.
+
+Examples:
+.jpg, .png – Image files
+.mp3, .wav – Audio files
+.mp4, .avi – Video files
+.exe, .bin – Executable/binary data
