@@ -157,3 +157,5 @@ Examples:
 .mp3, .wav – Audio files
 .mp4, .avi – Video files
 .exe, .bin – Executable/binary data
+
+F-strings (formatted string literals) are a clean and fast way to embed expressions inside string literals, using curly braces {}.
