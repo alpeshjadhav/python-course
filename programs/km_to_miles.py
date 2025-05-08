@@ -1,5 +1,5 @@
-km = float(input("enter value in km: "))
+km = float(input("Enter value in kilometers: "))
 
-miles = (0.621) * km
+miles = km * 0.621371
 
-print(km, "kms in miles will be ", miles, " miles")
+print(f"{km} kilometers is equal to {miles:.2f} miles.")
